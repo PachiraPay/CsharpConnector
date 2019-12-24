@@ -51,7 +51,7 @@ namespace Cpayment.Connector.Api
         /// Creates a payment session.
         /// </summary>
         /// <remarks>
-        /// 
+        /// Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </remarks>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -63,7 +63,7 @@ namespace Cpayment.Connector.Api
         /// Creates a payment session.
         /// </summary>
         /// <remarks>
-        /// 
+        /// Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </remarks>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -99,7 +99,7 @@ namespace Cpayment.Connector.Api
         /// Creates a payment session.
         /// </summary>
         /// <remarks>
-        /// 
+        /// Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </remarks>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -111,7 +111,7 @@ namespace Cpayment.Connector.Api
         /// Creates a payment session.
         /// </summary>
         /// <remarks>
-        /// 
+        /// Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </remarks>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -375,7 +375,7 @@ namespace Cpayment.Connector.Api
         }
 
         /// <summary>
-        /// Creates a payment session. 
+        /// Creates a payment session. Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </summary>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -388,7 +388,7 @@ namespace Cpayment.Connector.Api
         }
 
         /// <summary>
-        /// Creates a payment session. 
+        /// Creates a payment session. Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </summary>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -455,7 +455,7 @@ namespace Cpayment.Connector.Api
         }
 
         /// <summary>
-        /// Creates a payment session. 
+        /// Creates a payment session. Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </summary>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>
@@ -469,7 +469,7 @@ namespace Cpayment.Connector.Api
         }
 
         /// <summary>
-        /// Creates a payment session. 
+        /// Creates a payment session. Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \&quot;client redirection POST\&quot; method (with HMAC).  It&#39;s also the standard way for initializing a payment session for \&quot;iframe integration\&quot;.            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
         /// </summary>
         /// <exception cref="Cpayment.Connector.Client.ApiException">Thrown when fails to make API call</exception>
         /// <param name="authToken">Gets or sets the authentication token.</param>

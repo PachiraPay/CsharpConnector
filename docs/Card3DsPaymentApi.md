@@ -173,7 +173,7 @@ No authorization required
 
 Validate authentication AND authorize / payment
 
-Finish the 3DS payment.  Reuse the order references and the paymentRequestId (returned from the POST).
+The payment3DSecure is done in three steps.    <para>  **Step 1**  Using the POST Method available, you can check the enrollment of the card that will be used.  Remember to take note of the merchantId, merchantSiteId and orderRef you are sending, as well as the paymentRequestId you receive. You will need them again in step 3.  Also please take note of the parameter values you receive in the response, as you will need them in step 2.  </para><para>  **Step 2**  Then, you need to create and send a form for the user to validate the 3DS part of the card validation. We have provided you an example for the form (see below).  Simply replace the placeholder values for the parameters you received.    <pre> &lt;html lang=\"en\"&gt; &lt;body&gt; &lt;form id = \"formulaire\" method=\"post\" action=\"https://fakeRoute.payment3DS.com\"&gt; &lt;input type = \"hidden\" id=\"param1\" name=\"param1\" value=\"value1\"/&gt; &lt;input type = \"hidden\" id=\"param2\" name=\"param2\" value=\"value2\"/&gt; &lt;input type = \"hidden\" id=\"param3\" name=\"param3\" value=\"value3\"/&gt; &lt;input type = \"hidden\" id=\"param4\" name=\"param4\" value=\"value4\"/&gt; &lt;/form&gt; &lt;script&gt; &lt;document.forms[0].submit(); &lt;/script&gt; &lt;/body&gt; &lt;/html&gt; </pre></para><para>  **Step 3**  Finally, you can proceed with this PUT method to finish the payment.  Replace the placeholder values of the merchantId, merchantSiteId and orderRef with the values you sent in the POST method, and the paymentRequestId with the value you received from said POST method.  </para>
 
 ### Example
 
@@ -254,7 +254,7 @@ No authorization required
 
 Authorization / payment -with- authentication data
 
-You should pass authentication data returned by the authentication API.
+To reuse the previously stored authenticationData in order to trigger a 3DS authorization, you must call the dedicated Authorize with authentication-data API, and pass all authentication data.    For this first version of the API, you must pass the same orderRef and orderTag as the authentication. In future versions, the authorization will be completely decorrelated of the authentication.
 
 ### Example
 
@@ -318,6 +318,10 @@ No authorization required
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 | **200** | Success |  -  |
+| **400** | Bad Request |  -  |
+| **401** | Unauthorized |  -  |
+| **403** | Forbidden |  -  |
+| **500** | Server Error |  -  |
 
 [[Back to top]](#)
 [[Back to API list]](../README.md#documentation-for-api-endpoints)

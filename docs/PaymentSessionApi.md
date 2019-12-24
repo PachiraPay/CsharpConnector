@@ -94,6 +94,8 @@ No authorization required
 
 Creates a payment session.
 
+Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \"client redirection POST\" method (with HMAC).  It's also the standard way for initializing a payment session for \"iframe integration\".            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
+
 ### Example
 
 ```csharp
