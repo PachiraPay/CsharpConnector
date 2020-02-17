@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.GetPaymentSessionResult
+# pachirapay.Connector.Model.GetPaymentSessionResult
 
 ## Properties
 

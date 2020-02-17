@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.Card3DsPaymentApi
+# pachirapay.Connector.Api.Card3DsPaymentApi
 
 All URIs are relative to *http://localhost*
 
@@ -24,9 +24,9 @@ To process a payment authorization linked to this authentication, you should pas
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -99,9 +99,9 @@ Check enrollment
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -180,9 +180,9 @@ The payment3DSecure is done in three steps.    <para>  **Step 1**  Using the POS
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -261,9 +261,9 @@ To reuse the previously stored authenticationData in order to trigger a 3DS auth
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

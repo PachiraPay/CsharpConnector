@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.StoredPaymentMethod
+# pachirapay.Connector.Model.StoredPaymentMethod
 
 ## Properties
 

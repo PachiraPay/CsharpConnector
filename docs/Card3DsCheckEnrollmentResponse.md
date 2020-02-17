@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.Card3DsCheckEnrollmentResponse
+# pachirapay.Connector.Model.Card3DsCheckEnrollmentResponse
 
 ## Properties
 

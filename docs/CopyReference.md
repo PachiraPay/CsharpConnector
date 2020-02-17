@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.CopyReference
+# pachirapay.Connector.Model.CopyReference
 
 ## Properties
 

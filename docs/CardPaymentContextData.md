@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.CardPaymentContextData
+# pachirapay.Connector.Model.CardPaymentContextData
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.CardApi
+# pachirapay.Connector.Api.CardApi
 
 All URIs are relative to *http://localhost*
 
@@ -19,9 +19,9 @@ Credit a card.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

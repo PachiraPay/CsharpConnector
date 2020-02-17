@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.LoanOffer
+# pachirapay.Connector.Model.LoanOffer
 
 ## Properties
 

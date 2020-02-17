@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.DuplicatePaymentBatchRequest
+# pachirapay.Connector.Model.DuplicatePaymentBatchRequest
 
 ## Properties
 

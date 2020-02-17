@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.Card3DsAuthorizeWithAuthDataRequest
+# pachirapay.Connector.Model.Card3DsAuthorizeWithAuthDataRequest
 
 ## Properties
 

@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.Order
+# pachirapay.Connector.Model.Order
 
 ## Properties
 

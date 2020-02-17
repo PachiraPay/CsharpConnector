@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.LoanTerm
+# pachirapay.Connector.Model.LoanTerm
 
 ## Properties
 

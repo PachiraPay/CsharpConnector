@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.StoredPaymentMethodsApi
+# pachirapay.Connector.Api.StoredPaymentMethodsApi
 
 All URIs are relative to *http://localhost*
 
@@ -24,9 +24,9 @@ Gets the stored payment methods by customer reference.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -109,9 +109,9 @@ Deletes the specified stored payment method.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -194,9 +194,9 @@ Gets the stored payment method by its unique identifier.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -277,9 +277,9 @@ Stores a new payment method.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

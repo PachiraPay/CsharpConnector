@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.DuplicatePaymentApi
+# pachirapay.Connector.Api.DuplicatePaymentApi
 
 All URIs are relative to *http://localhost*
 
@@ -22,9 +22,9 @@ Achieve a batch of payments by copy of previously processed payments, with the s
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -103,9 +103,9 @@ Achieve a payment by copy of a previously processed payment, with the same payme
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

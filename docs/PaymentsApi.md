@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.PaymentsApi
+# pachirapay.Connector.Api.PaymentsApi
 
 All URIs are relative to *http://localhost*
 
@@ -26,9 +26,9 @@ This operation allows the merchant to retrieve some details about a payment givi
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -111,9 +111,9 @@ This operation allows the merchant to retrieve some details about a payment givi
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -198,9 +198,9 @@ This operation allows the merchant to retrieve some details about a payment givi
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -283,9 +283,9 @@ Cancel or refund
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -366,9 +366,9 @@ This operation charges the bank account of the customer, following a valid autho
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -449,9 +449,9 @@ This operation forces the recomputation of the payment schedule, using the defau
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

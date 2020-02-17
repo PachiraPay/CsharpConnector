@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.CardPaymentCreditHolderRequest
+# pachirapay.Connector.Model.CardPaymentCreditHolderRequest
 
 ## Properties
 

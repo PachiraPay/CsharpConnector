@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.ValidationModeOverride
+# pachirapay.Connector.Model.ValidationModeOverride
 
 ## Properties
 

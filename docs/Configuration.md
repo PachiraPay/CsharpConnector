@@ -1,20 +1,20 @@
 
-# Cpayment.Connector.Model.Configuration
+# pachirapay.Connector.Model.Configuration
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Culture** | **string** | Gets or sets the culture. | [optional] 
-**FormType** | **string** | Gets or sets the type of the form. | [optional] 
-**MerchantBackUrl** | **string** | Gets or sets the merchant back URL. | [optional] 
-**MerchantHomeUrl** | **string** | Gets or sets the merchant home URL. | [optional] 
-**MerchantNotifyUrl** | **string** | Gets or sets the merchant notify URL. | [optional] 
-**MerchantReturnUrl** | **string** | Gets or sets the merchant return URL. | [optional] 
-**PaymentOptionRef** | **string** | Gets or sets the payment option reference. | [optional] 
-**ReportDelayInDays** | **int?** | Gets or sets the report delay in days. | [optional] 
-**UserAgent** | **string** | Gets or sets the user agent. | [optional] 
-**Template** | **string** | Gets or sets the url template. | [optional] 
+**Culture** | **string** | Specify the culture to use on the payment form (ex: \&quot;fr-FR\&quot;, \&quot;en-GB\&quot;, \&quot;en-US\&quot;, \&quot;es-CO\&quot;) | [optional] 
+**FormType** | **string** | Specify the payment form type.  - Default is a full page payment form and should be used is you plan to redirect the customer to the payment page.  - Iframe should be used if you plan to integrate the payment form into your checkout (without external redirection). | [optional] 
+**MerchantBackUrl** | **string** | Defines the URL to use if we need to redirect the customer back to your website. | [optional] 
+**MerchantHomeUrl** | **string** | Defines the URL to use if we need to redirect the customer to the homepage of your website. | [optional] 
+**MerchantNotifyUrl** | **string** | Defines the URL to use to notify you at the end of the payment process.  The notification is a POST request, which includes the payment result code.  NOTE: this URL is optional, if not specified, no notification will be posted. | [optional] 
+**MerchantReturnUrl** | **string** | Defines the URL to use to redirect the customer at the end of the payment process.  The redirection is a POST request, using the customer browser, which includes the payment result code. | [optional] 
+**PaymentOptionRef** | **string** | Defines the payment option to use (1 for card payment, 21 for card payment with 3DS, 17 for paypal, ...).  Please refer to the full documentation for the exhaustive list. | 
+**ReportDelayInDays** | **int?** | The report delay in days. Can be used to postpone a payment. | [optional] 
+**UserAgent** | **string** | The user agent.  Optional, if not set it will be retrieved during the first load of the payment session into the customer browser. | [optional] 
+**Template** | **string** | The template to use for the payment form.  Optional, it should be set only if a specific UI has been implemented (custom UI style).  By default, it will defaulting to the \&quot;Generic\&quot; template. | [optional] 
 **AuthenticationOnly** | **bool?** | If set to *true*, no authorization will be done. The process ends after the holder authentication. | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models)

@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.PaymentSessionApi
+# pachirapay.Connector.Api.PaymentSessionApi
 
 All URIs are relative to *http://localhost*
 
@@ -20,9 +20,9 @@ Gets the payment result from its session id.
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
@@ -94,16 +94,16 @@ No authorization required
 
 Creates a payment session.
 
-Initializes a hosted form payment session with all the necessary data (order informations, customer informations, payment method...).  This API route can be used for classic hosted form. In that case, this operation is a alternative to the \"client redirection POST\" method (with HMAC).  It's also the standard way for initializing a payment session for \"iframe integration\".            You will get an URL pointing to a paymentform, so the customer will be able to complete the payment form with his card details.  You will also get a PaymentSessionId. It will be useful for calling the GetPaymentResult API when the payment will complete.
+Initializes a hosted form payment session with all the necessary data (order information, customer information, payment method...).  This API route can be used for classic hosted form. In that case, this operation is an alternative to the \"client redirection POST\" method (with HMAC).  It's also the standard way for initializing a payment session for \"iframe integration\".            You will get an URL pointing to a paymentform, so that the customer is able to complete the payment form with his card details.  You will also get a PaymentSessionId, useful for calling the GetPaymentResult API when the payment is completed.
 
 ### Example
 
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {

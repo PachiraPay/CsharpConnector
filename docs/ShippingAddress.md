@@ -1,16 +1,16 @@
 
-# Cpayment.Connector.Model.ShippingAddress
+# pachirapay.Connector.Model.ShippingAddress
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**City** | **string** | Gets or sets the city field. | [optional] 
-**Line1** | **string** | Gets or sets the line1 field. | [optional] 
-**Line2** | **string** | Gets or sets the line2 field. | [optional] 
-**Name** | **string** | Gets or sets the name field. | [optional] 
-**PlaceCalled** | **string** | Gets or sets the place called field. | [optional] 
-**ZipCode** | **string** | Gets or sets the zip code field. | [optional] 
+**City** | **string** | The city. | 
+**Line1** | **string** | The address line 1. | 
+**Line2** | **string** | The address line 2. | [optional] 
+**Name** | **string** | The address name. | 
+**PlaceCalled** | **string** | The place called. | [optional] 
+**ZipCode** | **string** | The zip code. | 
 
 [[Back to Model list]](../README.md#documentation-for-models)
 [[Back to API list]](../README.md#documentation-for-api-endpoints)

@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.CardPaymentResponse
+# pachirapay.Connector.Model.CardPaymentResponse
 
 ## Properties
 

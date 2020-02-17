@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.RedirectionData
+# pachirapay.Connector.Model.RedirectionData
 
 ## Properties
 

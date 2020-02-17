@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.AcquiringBank
+# pachirapay.Connector.Model.AcquiringBank
 
 ## Properties
 

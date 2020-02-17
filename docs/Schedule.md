@@ -1,5 +1,5 @@
 
-# Cpayment.Connector.Model.Schedule
+# pachirapay.Connector.Model.Schedule
 
 ## Properties
 

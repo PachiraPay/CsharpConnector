@@ -1,4 +1,4 @@
-# Cpayment.Connector.Api.CardPaymentApi
+# pachirapay.Connector.Api.CardPaymentApi
 
 All URIs are relative to *http://localhost*
 
@@ -21,9 +21,9 @@ Achieve a payment with a card without 3DSecure.  To achieve a 3DS payment (Check
 ```csharp
 using System.Collections.Generic;
 using System.Diagnostics;
-using Cpayment.Connector.Api;
-using Cpayment.Connector.Client;
-using Cpayment.Connector.Model;
+using pachirapay.Connector.Api;
+using pachirapay.Connector.Client;
+using pachirapay.Connector.Model;
 
 namespace Example
 {
